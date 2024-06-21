@@ -1,0 +1,6 @@
+tasks:
+  - command: docker-compose up -d
+    ports:
+      - port: 5432
+      - port: 7001
+      - port: https://7001-deencodes-gitpod-9cerhnxm7no.ws-eu114.gitpod.io
